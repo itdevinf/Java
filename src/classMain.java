@@ -50,7 +50,7 @@ public class classMain {
             }
         }
         else {
-        	
+            System.out.println("path : \"" + path + "\" does not exist.");
         }
     }
 	
