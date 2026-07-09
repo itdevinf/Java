@@ -26,6 +26,7 @@ public class classMain {
 		System.out.println("2.1/ Sélectionner le projet myJavaGitProjects");
 		System.out.println("2.2/ Menu window->Perspective->Open Perspective->Other...->Git->Open");
 		System.out.println("eclipse-workspace/myJavaGitProjects");
+		System.out.println("2.3/ Stage, Commit with message, Commit and Push");
 		
 		readAllJpg("F:/Vacances Laurent et Brigitte USA/USA/");
 	}
@@ -44,9 +45,12 @@ public class classMain {
                 	if ((!fileName.startsWith(".")) && (fileName.endsWith(".jpeg") || fileName.endsWith(".JPG"))) {
                 		readJpg(path + "/" + fileName);
                 	}
-                    System.out.println("fileName : " + fileName);
+                    System.out.println("path + fileName : " + path + "/" + fileName);
                 }
             }
+        }
+        else {
+        	
         }
     }
 	
